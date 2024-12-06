@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 exports.signup = async (req, res) => {
   const { username, password, email } = req.body;
 
